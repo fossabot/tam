@@ -1,0 +1,85 @@
+ Dependencies :
+ ---------------------------------------------------
+ * core-js 3.19.3
+ * Copyright (c) 2014-2021 Denis Pushkarev
+ * license: https://github.com/zloirock/core-js/blob/v3.19.3/LICENSE
+ * source: https://github.com/zloirock/core-js
+ ---------------------------------------------------
+ * nuxt.js
+ * Version  : 2.15.8
+ * License  : MIT
+ * Copyright: 2016-present Nuxt Team
+- Sebastien Chopin ([@Atinux](https://github.com/Atinux))
+- Alexandre Chopin ([@alexchopin](https://github.com/alexchopin))
+- Pooya Parsa ([@pi0](https://github.com/pi0))
+- Clark Du ([@clarkdo](https://github.com/clarkdo))
+- Jonas Galvez ([@galvez](https://github.com/galvez))
+- Alexander Lichter ([@manniL](https://github.com/manniL))
+- Dmitry Molotkov ([@aldarund](https://github.com/aldarund))
+- Kevin Marrec ([@kevinmarrec](https://github.com/kevinmarrec))
+- Pim ([@pimlie](https://github.com/pimlie))
+- All the amazing contributors (https://github.com/nuxt/nuxt.js/graphs/contributors)
+ ---------------------------------------------------
+  * @nuxtjs/axios
+  * Version  : 5.13.6
+  * License  : MIT
+  * Copyright: Copyright (c) Nuxt Community
+ ---------------------------------------------------
+  * @nuxtjs/pwa
+  * Version  : 3.3.5
+  * License  : MIT
+  * Copyright: Copyright (c) Nuxt Community
+ ---------------------------------------------------
+  * @nuxtjs/universal-storage
+  * Version  : 0.5.9
+  * License  : MIT (https://github.com/nuxt-community/universal-storage-module/blob/master/LICENSE)
+  * Copyright (c) Alibaba Travels Co - Nuxt Community
+ ---------------------------------------------------
+  * vue
+  * Version  : 2.6.14
+  * License  : MIT
+  * Copyright (c) 2013-present, Yuxi (Evan) You
+  * https://github.com/vuejs/vue/blob/v2.6.14/LICENSE
+ ---------------------------------------------------
+  * webpack
+  * Version  : 4.46.0
+  * License  : MIT
+  * Copyright JS Foundation and other contributors
+  * https://github.com/webpack/webpack/blob/v4.46.0/LICENSE
+  ---------------------------------------------------
+  * workbox-cdn
+  * Version  : 5.1.4
+  * License  : MIT
+  * Copyright 2018 Google LLC
+  * https://github.com/unjs/workbox-cdn/blob/main/LICENSE
+   ---------------------------------------------------
+  * Remix Icon v2.5.0
+  * https://remixicon.com
+  * https://github.com/Remix-Design/RemixIcon
+  *
+  * Copyright RemixIcon.com
+  * Released under the Apache License Version 2.0
+  *
+  * Date: 2020-05-23
+  ---------------------------------------------------
+  * sweetalert
+  * Version  : 2.1.2
+  * License  : MIT (https://github.com/t4t5/sweetalert/blob/master/LICENSE.md)
+  * Copyright (c) 2014-present Tristan Edwards
+ ---------------------------------------------------
+  * animejs
+  * Version  : 3.2.1
+  * License  : MIT (https://github.com/juliangarnier/anime/blob/master/LICENSE.md)
+  * Copyright (c) 2019 Julian Garnier
+ ---------------------------------------------------
+  * AOS (Animate on scroll) - wowjs alternative
+  * Version  : 2.3.4
+  * Licensed under MIT (https://github.com/michalsnik/aos/blob/next/LICENSE)
+  * Copyright (c) 2015 Michał Sajnóg
+ ---------------------------------------------------
+
+'devDependencies' And Other :
+ Open File package.json;
+ Open File package-lock.json;
+
+
