@@ -1,6 +1,6 @@
 # nnapp
 ## Why do I need it
-When you want to start any new project, you need to do some basic things such as arranging files and downloading the libraries that you need to work. This template also provides some codes that help you, such as you do not need to create a pop to write codes. All you have to do is use <pop></pop> Putting content...
+When you want to start any new project, you need to do some basic things such as arranging files and downloading the libraries that you need to work. This template also provides some codes that help you, such as you do not need to create a pop to write codes. All you have to do is use < pop >< /pop > Putting content...
 
 
 ## Build Setup
