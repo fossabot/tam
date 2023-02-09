@@ -19,6 +19,7 @@
     "@nuxtjs/universal-storage": "^0.5.9",
     "animejs": "^3.2.1",
     "aos": "^2.3.4",
+    "bootstrap": "^4.6.0",
     "core-js": "^3.19.3",
     "nuxt": "^2.15.8",
     "remixicon": "^2.5.0",
