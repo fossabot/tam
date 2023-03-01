@@ -1,19 +1,28 @@
 <template>
   <div class="pop">
     <div class="box">
-      <button @click="ClosePop()">Close</button>
-      <h1>Title</h1>
-      <div class="elements">
+      <button @click="closeHere()" class="close"><i class="ri-close-line"></i></button>
         <slot></slot>
-      </div>
     </div>
   </div>
 </template>
 
 <script>
-import methdos from "@/global/methods.js"
+
 
 export default {
-  mixins : methdos
+  methods : {
+    closeHere() {
+      const element = event.currentTarget.parentElement.parentElement;
+      element.classList.remove("active");
+      // element.classList.contains("active") ?  : element.classList.add("active");
+      // event.currentTarget.classList.remove()
+      // event.currentTarget.classList.add()
+
+      // if(event) {
+
+      // }
+    }
+  }
 }
 </script>

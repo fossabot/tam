@@ -1,5 +1,61 @@
 // Colors
-$color_a : #000;
-$color_b : #000;
+$color_a : #7187ff;
+$color_b : #1d1446;
 $color_c : #000;
+$text : #323675;
+$inputs : rgba($color: #000, $alpha: 0.03);
+
+// Element
+.g-box-input {
+  margin-top: 10px;
+  label {
+    @extend .g-label
+  }
+
+  input {
+    @extend .g-input
+  }
+}
+
+.g-label {
+  color: $color_b;
+  font-weight: bold;
+  display: block;
+}
+
+.g-input {
+  width: 100%;
+  box-sizing: border-box;
+  border-radius: 10px;
+  background-color: $inputs;
+  font-size: 18px;
+  border: 0;
+  outline-color: $color_a;
+  // outline-style: solid;
+  padding: 0 6px;
+}
+
+.g-btn {
+  all: unset;
+  width: 100%;
+  display: block;
+  margin-top: 20px;
+  box-sizing: border-box;
+  background-color: $color_a;
+  text-align: center;
+  color: #fff;
+  padding: 5px 0;
+  border-radius: 12px;
+  font-weight: bold;
+  vertical-align: middle;
+  cursor: pointer;
+
+  i {
+    display: inline-block;
+    font-weight:100;
+    vertical-align: middle;
+    margin-left: 5px;
+  }
+}
+
 
