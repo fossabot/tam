@@ -7,6 +7,10 @@
   font-family: "Noto Sans Arabic";
 }
 
+p {
+  line-height: 25px;
+}
+
 ::selection {
   color: $color_a;
   background-color: rgba($color: $color_a, $alpha: 0.3);
@@ -71,6 +75,12 @@ body {
     }
    }
 
+   &.scroll {
+    align-items: baseline;
+    overflow: auto;
+    padding: 20px 0;
+   }
+
    &.active {
     visibility: visible;
     opacity: 1;
@@ -109,4 +119,5 @@ a {
 }
 
 // import Style Pages
-@import "pages/index"
+@import "pages/index";
+@import "res"

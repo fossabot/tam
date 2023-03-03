@@ -1,0 +1,29 @@
+@media (max-width:600px) {
+.pop {
+  &.large {
+    .box {
+      width: 95%;
+    }
+  }
+}
+}
+
+@media (max-width:500px) {
+  .pop {
+    &.medium {
+      .box {
+        width: 95%;
+      }
+    }
+  }
+  }
+
+  @media (max-width:300px) {
+    .pop {
+      &.small {
+        .box {
+          width: 95%;
+        }
+      }
+    }
+    }

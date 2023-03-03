@@ -7,6 +7,6 @@ export default {
     openPop(eleClass) {
       const element = document.querySelector(`.${eleClass}`);
        element.classList.add("active");
-    },
+    }
   },
 }

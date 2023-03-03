@@ -1,6 +1,6 @@
 <template>
-  <div class="pop">
-    <div class="box">
+  <div class="pop" @click.self="close">
+    <div class="box" >
       <button @click="closeHere()" class="close"><i class="ri-close-line"></i></button>
         <slot></slot>
     </div>
@@ -11,6 +11,10 @@
 
 
 export default {
+  mounted() {
+    this.scroll();
+
+  },
   methods : {
     closeHere() {
       const element = event.currentTarget.parentElement.parentElement;
@@ -22,6 +26,21 @@ export default {
       // if(event) {
 
       // }
+    },
+    close() {
+      const element = event.currentTarget;
+      element.classList.remove("active");
+    },
+    scroll() {
+      const pop =  this.$el.querySelector(".box");
+    console.log(window.innerHeight);
+    console.log(pop.offsetHeight);
+
+    if(window.innerHeight < pop.offsetHeight+20) {
+      this.$el.classList.add("scroll");
+    }
+
+
     }
   }
 }

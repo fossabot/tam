@@ -1,0 +1,95 @@
+Methods :
+------------------------------
++ ClosePop(eleClass)
++ openPop(eleClass)
+------------------------------
+
+Files :
+------------------------------
++ base.scss
+------------------------------
+
+Styles :
+------------------------------
+.g-btn
+.g-input
+.g-label
+------------------------------
+
+
+html
+------------------------------------
+
+------------------------------------
+
+
+components :
+
+----------------------------------
+<box-list
+title="اللغة"
+:value ="['mysql','html','js','css','php']"
+:items="[
+  {
+    text: 'Html',
+    val: 'html',
+  },
+  {
+    text: 'css',
+    val: 'css',
+  },
+  {
+    text: 'javaScript',
+    val: 'js',
+  },
+  {
+    text: 'PHP',
+    val: 'php',
+  },
+  {
+    text: 'MySQL',
+    val: 'mysql',
+  },
+]"
+@selectList="arraySelect = $event"
+></box-list>
+----------------------------------
+<box-select title="اللغة" :items="[
+            {
+              text: 'العربية',
+              val: 'ar',
+            },
+            {
+              text: 'الأنجليزية',
+              val: 'en',
+            },
+          ]" :value="eleSelect" @selectElement="eleSelect = $event"></box-select>
+
+:value
+// Not Rquerd
+----------------------------------
+<box-boolean title="العنوان" des="الوصف" :value="isTrue" @selectBool="isTrue = !isTrue"></box-boolean>
+:value
+// Not Rquerd
+
+----------------------------------
+<box-checkbox title="تذكرني" :value="true" @selectBool="isTrue = !isTrue"></box-checkbox>
+----------------------------------
+<box-input title="اسمك" :value="text" @getText="text = $event"></box-input>
+:value
+// Not Rquerd
+---------------------------------
+<pop class="className Size">
+  <h1>العنوان</h1>
+  <div class="elements">
+    <p>
+      في هذا المكان نحدد النص المراد كتابته <a href="#">من هنا</a>و ل بلم
+      يمبلب ميبلم
+    </p>
+  </div>
+</pop>
+Size : // Not Rquerd
+.small
+.large
+.medium
+----------------------------------
