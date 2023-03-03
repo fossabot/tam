@@ -96,4 +96,18 @@ Size :  // Not Rquerd
 -->
 ```
 
+# 🎨 Class :
+
+```
+.g-btn
+.g-input
+.g-label
+```
+
+# 🧰 Methods :
+
+```
++ ClosePop(eleClass)
++ openPop(eleClass)
+```
 
