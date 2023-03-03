@@ -9,29 +9,91 @@ When you want to start any new project, you need to do some basic things such as
 Ready to use
 
 ### Basics
+
+---
+
 ``title``
 
 Title This Element
 
+---
 ``:items``
 
 The items are an array
+
+---
 
 ``:value``
 // Not Required
 
 They are values that you want to be selected from the code
 
+---
+
+``des``
+// Not Required
+
+Description or comment
+
+---
 
 
-
-
-## Select Multiple
+## Box Select Multiple
 ```
 <box-list
 title="title"
 :value ="['html']"
-:items="[{text: 'Html',val: 'html',},{text: 'css',val: 'css',}]"
+:items="[{text: 'Html',val: 'html'},{text: 'css',val: 'css'}]"
 @selectList="yourVariable = $event"
 ></box-list>
 ```
+
+## Box Select One Item
+```
+<box-select
+title="title"
+:items="[{text: 'العربية',val: 'ar'},{text: 'الأنجليزية',val: 'en'}]"
+value="en"
+@selectElement="yourVariable = $event"></box-select>
+```
+
+## Box input
+```
+<box-input 
+title="title" 
+value="textSetInInput" 
+@getText="yourVariable = $event"
+></box-input>
+```
+
+## Box Boolean
+```
+<box-boolean
+ title="title"
+ des="description"
+ :value="true"
+ @selectBool="yourVariable = $event"
+ ></box-boolean>
+```
+
+## Box Checkbox
+```
+<box-checkbox 
+title="title" 
+:value="true" 
+@selectBool="yourVariable = $event"
+></box-checkbox>
+```
+
+## pop-up
+```
+<pop class="className Size"></pop>
+<!--
+Size :  // Not Rquerd
+.small
+.large
+.medium
+-->
+```
+
+
