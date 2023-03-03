@@ -1,44 +1,55 @@
-# tam
-![tam](/static/image/tam.png)
-## Why do I need it
-When you want to start any new project, you need to do some basic things such as arranging files and downloading the libraries that you need to work. This template also provides some codes that help you, such as you do not need to create a pop to write codes. All you have to do is use < pop >< /pop > Putting content...
 
-### ⚒️ Under development
+# تم - tam
+<!-- ![tam]() -->
+ <div dir="rtl">
+  <img src="/static/image/tam.png">
+</div>
 
-# 📦 Components
-Ready to use
 
-### Basics
+## ليه احتاجه؟
+كل مره تبي تسوي مشروع جديد NuxtJs تعيد نفس الخطوات .. مثلا تنزيل المكتبات و ترتيب الملفات وانشائها وربطها, في هذا المشروع انشأت مشروع NuxtJs وسويت بعض الحاجات اللي ممكن تحتاجها (نزلت المكتبات,ربطت الملفات, واهم شي العناصر الجاهزة)  
 
----
+### ⚒️ تحت التطوير
 
-``title``
+# 📦 العناصر - Components
+هذي العناصر جاهزة للاستخدام بس اكتبها
 
-Title This Element
-
----
-``:items``
-
-The items are an array
+### قواعد
 
 ---
 
-``:value``
-// Not Required
+العنوان ( ``title`` ) String
 
-They are values that you want to be selected from the code
+الحقل هذا تكتب فيه عنوان العنصر مثلا (الاسم , البلد..الخ) 
+
+---
+العناصر ( ``:items`` ) Array
+
+تضيف في هذا الحقل مصفوفة فيها العناصر
 
 ---
 
-``des``
-// Not Required
+اضافة قيمة مسبقة (``:value``)
 
-Description or comment
+يمكنك في هذا الحقل وضع قيمة في العنصر
+
+*هذا الحقل غير اجباري
+
+---
+
+الوصف ( ``des`` ) String
+
+الوصف او التعليق
+
+*هذا الحقل غير اجباري
 
 ---
 
 
-## Box Select Multiple
+
+<br/>
+
+## اختيار متعدد - Box Select Multiple
 ```
 <box-list
 title="title"
@@ -48,7 +59,7 @@ title="title"
 ></box-list>
 ```
 
-## Box Select One Item
+## اختيار واحد - Box Select One Item
 ```
 <box-select
 title="title"
@@ -57,7 +68,7 @@ value="en"
 @selectElement="yourVariable = $event"></box-select>
 ```
 
-## Box input
+## حقل نصي وعنوان - Box input
 ```
 <box-input 
 title="title" 
@@ -66,7 +77,7 @@ value="textSetInInput"
 ></box-input>
 ```
 
-## Box Boolean
+## تفعيل/ايقاف - Box Boolean
 ```
 <box-boolean
  title="title"
@@ -76,7 +87,7 @@ value="textSetInInput"
  ></box-boolean>
 ```
 
-## Box Checkbox
+## مربع اختيار - Box Checkbox
 ```
 <box-checkbox 
 title="title" 
@@ -85,7 +96,7 @@ title="title"
 ></box-checkbox>
 ```
 
-## pop-up
+## نافذة منبثقه - pop-up
 ```
 <pop class="className Size"></pop>
 <!--
@@ -96,7 +107,7 @@ Size :  // Not Rquerd
 -->
 ```
 
-# 🎨 Class :
+# 🎨 الكلاسات - Class :
 
 ```
 .g-btn
@@ -104,7 +115,7 @@ Size :  // Not Rquerd
 .g-label
 ```
 
-# 🧰 Methods :
+# 🧰 اشياء تقدر تستخدمها - Methods :
 
 ```
 + ClosePop(eleClass)
