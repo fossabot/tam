@@ -122,3 +122,7 @@ Size :  // Not Rquerd
 + openPop(eleClass)
 ```
 
+هذا القالب مبني بإطار 
+NuxtJS
+
+https://nuxtjs.com/
