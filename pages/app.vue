@@ -1,44 +1,38 @@
 <template>
   <div class="box">
-    <box-list
-      title="الهوايات"
-      :items="[
-        {
-          text: 'البرمجة',
-          val: 'pro',
-        },
-        {
-          text: 'التصميم',
-          val: 'des',
-        }
-      ]"
-      @selectList="run($event)"
-    ></box-list>
 
 
     <box-list
-      title="اللغة"
+      title="اختيار متعدد"
       :items="[
         {
-          text: 'العربية',
-          val: 'Arabic',
+          text: 'الخيار 1',
+          val: 'select-1',
         },
         {
-          text: 'الانجليزية',
-          val: 'English',
+          text: 'الخيار 2',
+          val: 'select-2',
         }
       ]"
-      @selectList="run($event)"
+      @selectList="yourVariable = $event"
     ></box-list>
+
+    <br>
+    <p>القيم التي في المتغير : </p>
+    <p>{{ yourVariable }}</p>
+
+
   </div>
 </template>
 
 <script>
 export default {
+  data() {
+    return {
+      yourVariable : []
+    }
+  },
   methods: {
-    run(e) {
-      console.log(e)
-    },
   },
 }
 </script>
