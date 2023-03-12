@@ -1,5 +1,6 @@
-
 # تم - tam
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fnonehub%2Ftam.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fnonehub%2Ftam?ref=badge_shield)
+
 <!-- ![tam]() -->
  <div dir="rtl">
   <img src="/static/image/tam.png">
@@ -126,3 +127,7 @@ Size :  // Not Rquerd
 NuxtJS
 
 https://nuxtjs.com/
+
+
+## License
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fnonehub%2Ftam.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fnonehub%2Ftam?ref=badge_large)
